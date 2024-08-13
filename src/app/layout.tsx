@@ -25,7 +25,13 @@ export default function RootLayout({
   return (
     <html lang="en" className="scroll-smooth">
       <Head>
-        <meta name="robots" content="index" />
+        <meta name="robots" content="all" />
+        <link
+          rel="apple-touch-icon"
+          href="/favicon_io/apple-touch-icon.png"
+          type="image/png"
+          sizes="180x180"
+        />
       </Head>
       <body className={inter.className}>{children}</body>
     </html>

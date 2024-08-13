@@ -8,20 +8,24 @@ import LogoGrid from "../components/ui/LogoGrid";
 import Stats from "../components/ui/Stats";
 import Navbar from "../components/ui/Navbar";
 import Footer from "../components/ui/Footer";
+import { Suspense } from "react";
+import Loading from "./loading";
 
 export default function Home() {
   return (
     <>
-      <Navbar />
-      <Hero />
-      <LogoGrid />
-      <CenteredCTAText />
-      <CTA />
-      <Features />
-      <Stats />
-      <FAQs />
-      <FooterCTA />
-      <Footer />
+      <Suspense fallback={<Loading />}>
+        <Navbar />
+        <Hero />
+        <LogoGrid />
+        <CenteredCTAText />
+        <CTA />
+        <Features />
+        <Stats />
+        <FAQs />
+        <FooterCTA />
+        <Footer />
+      </Suspense>
     </>
   );
 }
