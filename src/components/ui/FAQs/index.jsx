@@ -1,37 +1,38 @@
 import SectionWrapper from "../../SectionWrapper";
 
+
 const faqsList = [
     {
-        q: "How does website traffic affect my business?",
-        a: "Website traffic is the number of visitors to a website or webpage. It is usually measured in hits, unique visitors, page views.",
+        q: "What is Hill Hacks: Innovate for Change?",
+        a: "Hill Hacks is a global hackathon where participants tackle real-world challenges faced by different countries. It's an opportunity to use technology and creativity to address critical issues and make a positive impact worldwide.",
     },
     {
-        q: "What are the advantages of using a free traffic service at the beginning?",
-        a: "For starters, it is free. It does not cost anything to use the service unlike other paid services that require you to pay.",
+        q: "When and where is Hill Hacks taking place?",
+        a: "Hill Hacks is a virtual event running from Friday, November 15th at 10:30 AM to Sunday, November 17th at 6 PM. Participants can join from anywhere in the world!",
     },
     {
-        q: "Which types of paid traffic services are available?",
-        a: "There are many different types of paid traffic services, such as pay-per-click advertising, social media ads, and email marketing.",
+        q: "What kind of problems can we address?",
+        a: "You can focus on a wide range of issues including environmental concerns, healthcare challenges, educational gaps, economic difficulties, social inequalities, or technological hurdles specific to your chosen country.",
     },
     {
-        q: "How do you generate traffic to a website?",
-        a: "Social media is a great place for businesses because it has the potential to reach millions of people, so we can help to you do that.",
+        q: "Is there a participation fee?",
+        a: "Hill Hacks is completely FREE to attend! We believe in making global problem-solving accessible to everyone with a passion for change.",
     },
     {
-        q: "How can Website traffic service help me?",
-        a: "There are many benefits to using a website traffic service. For example, they can help you get more targeted visitors to your site.",
+        q: "Are there prizes for the winners?",
+        a: "Yes! We have an exciting prize pool of over $50,000 for the most innovative and impactful solutions. Prizes will be awarded across various categories.",
     },
     {
-        q: "Which are the best Website traffic service providers in the market?",
-        a: "There are a lot of Website traffic service providers in the market, but split is one of the best, and trusted websites in the market",
+        q: "What if I'm new to hackathons or global issues?",
+        a: "No worries! Hill Hacks welcomes participants of all experience levels. We provide resources, workshops, and mentors to help you learn about global challenges and develop your ideas.",
     },
     {
-        q: "How do you generate traffic to a website?",
-        a: "Social media is a great place for businesses because it has the potential to reach millions of people, so we can help to you do that.",
+        q: "How do teams work for this hackathon?",
+        a: "Teams can have 1 to 4 members. You can form a team beforehand or join our team-formation events at the start of the hackathon. We encourage diverse teams with varied skills and backgrounds.",
     },
     {
-        q: "How can Website traffic service help me?",
-        a: "There are many benefits to using a website traffic service. For example, they can help you get more targeted visitors to your site.",
+        q: "Where can I find more information and resources?",
+        a: "Our comprehensive Hacker's Guide, Code of Conduct, and additional resources are available on our website. Check them out for detailed information on participating in Hill Hacks!",
     }
 ]
 
@@ -43,7 +44,7 @@ const FAQs = () => (
                     Frequently asked questions
                 </h2>
                 <p className="mt-3">
-                    Everything you need to know about the product. Can&apon;t find the answer you&apon;re looking for? feel free to {" "}
+                    Everything you need to know about the product. Can't find the answer you're looking for? feel free to {" "}
                     <a
                         className='text-blue-600 hover:text-blue-400 duration-150 font-semibold whitespace-nowrap'
                         href='mailto:example@domain.com'>

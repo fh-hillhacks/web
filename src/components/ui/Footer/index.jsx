@@ -3,9 +3,11 @@ import Newsletter from '../Newsletter'
 import Brand from '../Brand'
 
 const navigation = [
-    { name: "Features", href: "#features" },
-    { name: "Pricing", href: "/pricing" },
+    { name: "Home", href: "/" },
+    { name: "About", href: "#about" },
+    { name: "Sponsors", href: "#sponsors" },
     { name: "FAQs", href: "#faqs" },
+    { name: "Contact", href: "#contact" },
 ]
 
 const Footer = () => (
@@ -46,7 +48,7 @@ const Footer = () => (
                         ))
                     }
                 </ul>
-                <p className="mt-6 sm:mt-0">© 2023 Split Inc. All rights reserved.</p>
+                <p className="mt-6 sm:mt-0">© 2023 Hill Hacks Inc. All rights reserved.</p>
             </div>
         </div>
     </footer>

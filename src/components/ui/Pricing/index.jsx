@@ -58,7 +58,7 @@ const Pricing = () => {
                     </h1>
                     <div className='mt-3 max-w-xl'>
                         <p>
-                            Always know what you&apon;ll pay with monthly caps and flat pricing.
+                            Always know what you'll pay with monthly caps and flat pricing.
                         </p>
                     </div>
                 </div>

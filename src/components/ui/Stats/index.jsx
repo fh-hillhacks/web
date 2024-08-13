@@ -2,20 +2,20 @@ import SectionWrapper from "../../SectionWrapper"
 
 const stats = [
     {
-        data: "95K+",
-        desc: "Active websites around the world."
+        data: "190+",
+        desc: "Countries represented by innovative solutions."
     },
     {
-        data: "120M+",
-        desc: "API requests per day, and 6,000 requests a second."
+        data: "1000+",
+        desc: "Participants tackling global challenges with creativity."
     },
     {
-        data: "25B+",
-        desc: "Tracked pageviews per month."
+        data: "50+",
+        desc: "Mentors providing guidance and expertise."
     },
     {
-        data: "70%",
-        desc: "most people are using split in their website."
+        data: "80%",
+        desc: "Projects focused on sustainable development goals."
     },
 ]
 
@@ -24,10 +24,10 @@ const Stats = () => (
         <div className="custom-screen text-gray-600">
             <div className="max-w-xl xl:mx-auto xl:text-center">
                 <h3 className="text-gray-800 text-3xl font-semibold sm:text-4xl">
-                    Get your site to the top of Google
+                    Innovate for Global Change
                 </h3>
                 <p className="mt-3">
-                    We distribute your visitors to your site across different geographical locations.
+                    Join Hill Hacks to address critical issues faced by countries worldwide through technology and creativity.
                 </p>
             </div>
             <div className="mt-12">
