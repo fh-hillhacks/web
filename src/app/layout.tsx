@@ -9,7 +9,7 @@ export const viewport: Viewport = {
   width: "device-width",
   initialScale: 1,
   // Also supported by less commonly used
-  // interactiveWidget: 'resizes-visual',
+  interactiveWidget: "resizes-visual",
 };
 export const metadata: Metadata = {
   title: "Hill Hacks",
@@ -32,6 +32,13 @@ export default function RootLayout({
           type="image/png"
           sizes="180x180"
         />
+        <link rel="manifest" href="/site.webmanifest" />
+        <link
+          rel="icon"
+          type="image/svg+xml"
+          href="/favicon_io/favicon-32x32.png"
+        />
+        <link rel="sitemap" href="/sitemap.xml" />
       </Head>
       <body className={inter.className}>{children}</body>
     </html>

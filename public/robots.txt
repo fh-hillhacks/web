@@ -1,5 +1,3 @@
-//robots.txt
-
 # Block all crawlers for /accounts
 User-agent: *
 Disallow: /accounts
@@ -7,3 +5,4 @@ Disallow: /accounts
 # Allow all crawlers
 User-agent: *
 Allow: /
+Sitemap: https://www.hillhacks.net/sitemap.xml
