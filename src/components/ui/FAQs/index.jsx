@@ -38,9 +38,9 @@ const faqsList = [
 
 const FAQs = () => (
     <SectionWrapper id="faqs">
-        <div className="custom-screen text-gray-600">
+        <div className="custom-screen ">
             <div className="max-w-xl xl:mx-auto xl:text-center">
-                <h2 className="text-gray-800 text-3xl font-extrabold sm:text-4xl">
+                <h2 className=" text-3xl font-extrabold sm:text-4xl">
                     Frequently asked questions
                 </h2>
                 <p className="mt-3">
@@ -60,12 +60,12 @@ const FAQs = () => (
                             className="space-y-3"
                         >
                             <summary
-                                className="flex items-center justify-between font-semibold text-gray-700">
+                                className="flex items-center justify-between font-semibold">
                                 {item.q}
                             </summary>
                             <p
                                 dangerouslySetInnerHTML={{ __html: item.a }}
-                                className='leading-relaxed'>
+                                className='leading-relaxed opacity-60'>
                             </p>
                         </li>
                     ))}

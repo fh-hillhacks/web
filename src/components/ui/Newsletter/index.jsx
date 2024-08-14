@@ -33,7 +33,7 @@ const Newsletter = () => {
 
   return (
     <div className="mt-6 md:mt-0">
-      <h2 className="text-gray-800 text-xl font-semibold sm:text-2xl">
+      <h2 className=" text-xl font-semibold sm:text-2xl">
         Sign up for our newsletter.
       </h2>
       <form onSubmit={handleSubmit} className="mt-6 flex items-center gap-x-3">

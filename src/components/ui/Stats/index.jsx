@@ -21,9 +21,9 @@ const stats = [
 
 const Stats = () => (
     <SectionWrapper>
-        <div className="custom-screen text-gray-600">
+        <div className="custom-screen ">
             <div className="max-w-xl xl:mx-auto xl:text-center">
-                <h3 className="text-gray-800 text-3xl font-semibold sm:text-4xl">
+                <h3 className=" text-3xl font-semibold sm:text-4xl">
                     Innovate for Global Change
                 </h3>
                 <p className="mt-3">

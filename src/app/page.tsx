@@ -6,17 +6,19 @@ import FooterCTA from "../components/ui/FooterCTA";
 import Hero from "../components/ui/Hero";
 import LogoGrid from "../components/ui/LogoGrid";
 import Stats from "../components/ui/Stats";
-import Navbar from "../components/ui/Navbar";
 import Footer from "../components/ui/Footer";
 import { Suspense } from "react";
 import Loading from "./loading";
+import { MacbookScrollDemo } from "@/components/ui/MacbookScroll/macbook";
+import { GlobeDemo } from "@/components/ui/globe/globe_comp";
 
 export default function Home() {
   return (
     <>
       <Suspense fallback={<Loading />}>
-        <Navbar />
         <Hero />
+        <GlobeDemo />
+        <MacbookScrollDemo />
         <LogoGrid />
         <CenteredCTAText />
         <CTA />

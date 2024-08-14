@@ -1,4 +1,4 @@
-import DarkWrapper from "../../DarkWrapper"
+import GradientWrapper from "@/components/GradientWrapper"
 
 const Features = () => {
 
@@ -36,10 +36,10 @@ const Features = () => {
     ]
 
     return (
-        <DarkWrapper id="features">
-            <div className="custom-screen text-gray-300 justify-between gap-24 lg:flex">
+        <GradientWrapper>
+            <div className="custom-screen  justify-between gap-24 lg:flex">
                 <div className="max-w-xl">
-                    <h2 className="text-white text-3xl font-semibold sm:text-4xl">
+                    <h2 className=" text-3xl font-semibold sm:text-4xl">
                         Tackle global challenges with innovative solutions
                     </h2>
                     <p className="mt-3">
@@ -51,11 +51,11 @@ const Features = () => {
                         {
                             features.map((item, idx) => (
                                 <li key={idx} className="flex gap-x-4">
-                                    <div className="flex-none w-12 h-12 bg-gray-700 text-cyan-400 rounded-lg flex items-center justify-center">
+                                    <div className="flex-none w-12 h-12 text-cyan-400 rounded-lg flex items-center justify-center">
                                         {item.icon}
                                     </div>
                                     <div>
-                                        <h4 className="text-lg text-gray-100 font-semibold">
+                                        <h4 className="text-lg  font-semibold">
                                             {item.title}
                                         </h4>
                                         <p className="mt-3">
@@ -68,7 +68,7 @@ const Features = () => {
                     </ul>
                 </div>
             </div>
-        </DarkWrapper>
+        </GradientWrapper>
     )
 }
 
