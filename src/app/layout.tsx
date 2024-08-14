@@ -4,6 +4,7 @@ import "./globals.css";
 import Head from "next/head";
 import type { Viewport } from "next";
 import { ThemeProvider } from "@/components/theme-provider";
+import Navbar from "../components/ui/Navbar";
 
 const inter = Inter({ subsets: ["latin"] });
 export const viewport: Viewport = {
@@ -48,6 +49,8 @@ export default function RootLayout({
           enableSystem
           disableTransitionOnChange
         >
+          <Navbar />
+
           {children}
         </ThemeProvider>
       </body>

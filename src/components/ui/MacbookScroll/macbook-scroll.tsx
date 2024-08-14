@@ -79,7 +79,7 @@ export const MacbookScroll = ({
       >
         {title || (
           <span>
-            This Macbook is built with Tailwindcss. <br /> No kidding.
+            Yup. <br /> No kidding.
           </span>
         )}
       </motion.h2>
@@ -167,7 +167,7 @@ export const Lid = ({
         <div className="absolute inset-0 bg-[#272729] rounded-lg" />
         <Image
           src={src as string}
-          alt="aceternity logo"
+          alt="Logo"
           fill
           className="object-cover object-left-top absolute rounded-lg inset-0 h-full w-full"
         />

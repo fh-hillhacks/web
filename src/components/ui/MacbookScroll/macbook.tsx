@@ -4,7 +4,7 @@ import Image from "next/image";
 import hillhacks from "../../../../public/hillhacks.svg";
 export function MacbookScrollDemo() {
   return (
-    <div className="overflow-hidden dark:bg-[#0B0B0F] bg-white w-full">
+    <div className="overflow-hidden  w-full">
       <MacbookScroll
         title={
           <span>
@@ -12,7 +12,7 @@ export function MacbookScrollDemo() {
           </span>
         }
         badge={
-          <Link href="https://peerlist.io/manuarora">
+          <Link href="https://www.instagram.com/hill_hacks/" target="_blank">
             <Badge className="h-10 w-10 transform -rotate-12" />
           </Link>
         }
