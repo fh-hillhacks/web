@@ -8,10 +8,10 @@ const CTA = () => {
         <SectionWrapper id="cta" className="overflow-hidden">
             <div className="custom-screen flex flex-col-reverse gap-x-12 justify-between md:flex-row md:items-center">
                 <div className="flex-none max-w-xl mt-12 space-y-3 md:mt-0">
-                    <h2 className="text-gray-800 text-3xl font-semibold sm:text-4xl">
+                    <h2 className=" text-3xl font-semibold sm:text-4xl">
                         A Creative Tech Marathon for All
                     </h2>
-                    <p className="text-gray-600">
+                    <p className="">
                         Hillhacks24 is an exciting, free event for tech enthusiasts of all levels. From November 15-17 at Foothill College, you'll experience inspiring speakers, helpful workshops, skilled mentors, and fun games. With themes like environment, healthcare, and VR, plus over $200,000 in prizes, it's an opportunity you won't want to miss!
                     </p>
                     <div className="pt-1">

@@ -79,15 +79,15 @@ const logos = [
 const LogoGrid = () => (
     <SectionWrapper>
         <div className="custom-screen">
-            <h2 className="font-semibold text-sm text-gray-800 text-center">
+            <h2 className="font-semibold text-sm text-center">
                 Sponsored by
             </h2>
-            <div className="mt-8 flex justify-center">
+            <div className="mt-8 flex justify-center py-24 bg-gray-200 rounded-3xl">
                 <ul className="inline-grid grid-cols-2 gap-x-10 gap-y-8 md:gap-x-16 md:grid-cols-3 lg:grid-cols-4">
                     {
                         logos.map((item, idx) => (
                             <li key={idx} className='flex justify-center items-center'>
-                                <Image src={item.src} alt={item.alt} width={100} height={100} />
+                                <Image src={item.src} alt={item.alt} width={150} height={100} />
                             </li>
                         ))
                     }

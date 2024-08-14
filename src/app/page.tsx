@@ -10,13 +10,14 @@ import Navbar from "../components/ui/Navbar";
 import Footer from "../components/ui/Footer";
 import { Suspense } from "react";
 import Loading from "./loading";
-
+import { MacbookScrollDemo } from "@/components/ui/MacbookScroll/macbook";
 export default function Home() {
   return (
     <>
       <Suspense fallback={<Loading />}>
         <Navbar />
         <Hero />
+        <MacbookScrollDemo />
         <LogoGrid />
         <CenteredCTAText />
         <CTA />

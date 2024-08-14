@@ -3,9 +3,9 @@ import NavLink from "../NavLink"
 
 const Hero = () => (
     <section>
-        <GradientWrapper wrapperClassName="inset-0" className="custom-screen text-gray-600">
+        <GradientWrapper wrapperClassName="inset-0" className="custom-screen ">
             <div className="space-y-5 max-w-4xl mx-auto text-center">
-                <h1 className="text-4xl text-gray-800 font-extrabold mx-auto sm:text-6xl">
+                <h1 className="text-4xl  font-extrabold mx-auto sm:text-6xl">
                     The ultimate hackathon experience for all skill levels at<span className="bg-clip-text text-transparent bg-gradient-to-r from-[#9867F0] to-[#ED4E50]"> Hill Hacks</span>
                 </h1>
                 <p className="max-w-xl mx-auto">
@@ -23,7 +23,7 @@ const Hero = () => (
                     </NavLink>
                     <NavLink
                         href="#details"
-                        className="flex items-center gap-x-2 text-gray-700 hover:text-gray-900"
+                        className="flex items-center gap-x-2  "
                         scroll={false}
                     >
                         Event details

@@ -4,19 +4,19 @@ import NavLink from "../NavLink"
 const FooterCTA = () => {
     return (
         <DarkWrapper>
-            <div className="custom-screen  gap-x-12 justify-between md:flex">
+            <div id="contact" className="custom-screen  gap-x-12 justify-between md:flex">
                 <div className="max-w-xl">
-                    <h2 className="text-white text-3xl font-semibold sm:text-4xl">
+                    <h2 className=" text-3xl font-semibold sm:text-4xl">
                         Join Hill Hacks to address critical issues faced by countries worldwide through technology and creativity.
                     </h2>
-                    <p className="mt-3 text-gray-300">
+                    <p className="mt-3 ">
                         Hill Hacks is a global competition that invites participants to address critical issues faced by countries worldwide through technology and creativity.
                     </p>
                 </div>
                 <div className="flex-none mt-4 md:mt-0">
                     <NavLink
                         href="#"
-                        className="inline-flex items-center gap-x-2 font-medium text-sm text-white bg-blue-600 hover:bg-blue-500 active:bg-blue-700 "
+                        className="inline-flex items-center gap-x-2 font-medium text-sm white bg-blue-600 hover:bg-blue-500 active:bg-blue-700 "
                     >
                         Apply Now
                         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" className="w-5 h-5">

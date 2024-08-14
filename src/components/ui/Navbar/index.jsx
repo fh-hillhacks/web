@@ -29,10 +29,10 @@ const Navbar = () => {
             <div className="custom-screen md:hidden">
                 <NavHeader menuBtnEl={menuBtnEl} state={state} onClick={() => setState(!state)} />
             </div>
-            <nav className={`bg-white pb-5 md:text-base md:static md:block ${state ? "absolute z-20 top-2 inset-x-4 shadow-lg rounded-xl border md:shadow-none md:border-none" : "hidden"}`}>
+            <nav className={` pb-5 md:text-base md:static md:block ${state ? "absolute z-20 top-2 inset-x-4 shadow-lg rounded-xl border md:shadow-none md:border-none" : "hidden"}`}>
                 <div className="custom-screen gap-x-20 items-center md:flex">
                     <NavHeader state={state} onClick={() => setState(!state)} />
-                    <div className={`flex-1 items-center mt-8 text-gray-600 md:font-medium md:mt-0 md:flex ${state ? 'block' : 'hidden'} `}>
+                    <div className={`flex-1 items-center mt-8  md:font-medium md:mt-0 md:flex ${state ? 'block' : 'hidden'} `}>
                         <ul className="justify-center items-center space-y-6 md:flex md:space-x-6 md:space-y-0">
                             {
                                 navigation.map((item, idx) => {
@@ -47,7 +47,7 @@ const Navbar = () => {
                             }
                         </ul>
                         <div className="flex-1 gap-x-6 items-center justify-end mt-6 space-y-6 md:flex md:space-y-0 md:mt-0">
-                            <Link href="https://discord.gg/WeAweB5ESY" target="_blank" className="block hover:text-gray-900">
+                            <Link href="https://discord.gg/WeAweB5ESY" target="_blank" className="block hover:text-gray-100">
                                 Join Discord
                             </Link>
                             <NavLink href="#" className="flex items-center justify-center gap-x-1 text-base text-white font-medium bg-gray-800 hover:bg-gray-600 active:bg-gray-900 md:inline-flex">
