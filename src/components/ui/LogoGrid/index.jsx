@@ -12,8 +12,13 @@ import TinderLogo_2017 from '../../../../public/logos/TinderLogo-2017.svg'
 import De_Anza_College_logo from '../../../../public/logos/De_Anza_College_logo.svg'
 import stanford from '../../../../public/logos/stanford-university-seeklogo.svg'
 import SectionWrapper from '../../SectionWrapper'
+import hillhacks from '../../../../public/hillhacks.svg'
 
 const logos = [
+    {
+        src: hillhacks,
+        alt: "hillhacks"
+    },
     {
         src: stanford,
         alt: "stanford university"
@@ -82,7 +87,7 @@ const LogoGrid = () => (
                     {
                         logos.map((item, idx) => (
                             <li key={idx} className='flex justify-center items-center'>
-                                <Image src={item.src} alt={item.alt} width={200} height={100} />
+                                <Image src={item.src} alt={item.alt} width={100} height={100} />
                             </li>
                         ))
                     }
