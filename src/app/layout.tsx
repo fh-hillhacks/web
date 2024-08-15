@@ -5,7 +5,7 @@ import Head from "next/head";
 import type { Viewport } from "next";
 import { ThemeProvider } from "@/components/theme-provider";
 import Navbar from "../components/ui/Navbar";
-
+import Script from "next/script";
 const inter = Inter({ subsets: ["latin"] });
 export const viewport: Viewport = {
   width: "device-width",
@@ -42,6 +42,15 @@ export default function RootLayout({
         />
         <link rel="sitemap" href="/sitemap.xml" />
       </Head>
+      <Script src="https://www.googletagmanager.com/gtag/js?id=G-JNR5SMJCDW" />
+      <Script id="google-analytics">
+        {`
+          window.dataLayer = window.dataLayer || [];
+          function gtag(){dataLayer.push(arguments);}
+          gtag('js', new Date());
+          gtag('config', 'G-JNR5SMJCDW');
+        `}
+      </Script>
       <body className={inter.className}>
         <ThemeProvider
           attribute="class"
